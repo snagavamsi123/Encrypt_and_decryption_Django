@@ -1,0 +1,228 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 5px;
+    background : url(../images/7.jpg) no-repeat fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+	box-sizing: border-box;
+	font-family: sans-serif !important ;
+	overflow-x: hidden;
+	min-height: 100vh;
+}
+
+.header{
+    position: absolute;
+    top:0%;
+    left: 0%;
+    padding: 10px;
+    width: 100%;
+    align-content : center;
+    color:rgb(255, 0, 255);
+    font-family:Verdana;
+
+}
+
+
+
+.buttons{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    top: 50%;
+    left:50%;
+    vertical-align: middle;
+    font-weight: bolder;
+    display:inline-block;
+    margin-inline-end: 1.0cm;
+
+}
+
+
+
+.button1{
+    padding: 5px 5px;
+    position:absolute;
+    top:50%;
+	font-size: medium;
+	border-radius: 7px;
+	outline: none;
+	border: 0;
+	font-weight: bolder;
+	font-size: 14px;
+	color: black;
+	display: inline-block;
+	width: auto;
+    display:inline-block;
+    margin-inline-end: 1.0cm;
+}
+
+.button2{
+    padding: 5px 5px;
+    position:absolute;
+    top:50%;
+	font-size: medium;
+	border-radius: 7px;
+	outline: none;
+	border: 0;
+	font-weight: bolder;
+	font-size: 14px;
+	color: black;
+	display: inline-block;
+	width: auto;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+}
+
+button:hover{
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.textareacls{
+    position:absolute;
+    width: 100%;
+    top:25%;
+    left:0%;
+}
+
+
+.button3{
+    padding: 5px 5px;
+    position:absolute;
+    top:50%;
+	font-size: medium;
+	border-radius: 7px;
+	outline: none;
+	border: 0;
+	font-weight: bolder;
+	font-size: 14px;
+	color: black;
+	display: inline-block;
+	width: 100%;
+}
+
+.button4{
+
+    position:absolute;
+    top:30%;
+    left:40%;
+    color: aqua;    
+}
+
+.button5{
+
+    position:absolute;
+    top:35%;
+    left:45%;
+    color: rgb(0, 0, 0); 
+    background-color: #fff;
+    
+}
+.filesubmit_btn{
+    font-weight: bolder;   
+}
+
+.upload_file_btn{
+    color:white;
+    font-weight: bolder;
+}
+
+.outputarea{
+    position:absolute;
+    top:60%;
+    width:100%;
+}
+
+.optext{
+    font-weight: bolder;
+    color: white;
+}
+.output_content{
+
+    position:absolute;
+    width: 100%;
+    top:70%;
+    left: 0%;
+    color: white;
+
+}
+
+div[disabled]{
+    pointer-events: none;
+    opacity: 0;
+}
+
+.header_buttons{
+    position: absolute;
+    top: 5%;
+    padding: 5px 5px;
+    
+}
+
+.header_buttons_ul{
+    display: flex;
+    float: right;
+    margin-top: 10px;
+}
+
+.header_buttons_ul li{
+   display:inline-block;
+   margin-inline-end: 1.0cm;
+}
+
+.header_buttons_ul li a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:#000;
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+  }
+
+.header_buttons_ul li a:hover{
+    background-color: #000;
+    color: #fff;
+
+}
+
+.middle_buttons{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        padding: 5px 5px;
+    }
+
+.middle_buttons_ul{
+    display: flex;
+    float: center;
+    margin-top: 10px;
+}
+
+
+.middle_buttons_ul li{
+    display:inline-block;
+    margin-inline-end: 1.0cm;
+ }
+ 
+ .middle_buttons_ul li a{
+     font-weight: bolder;
+     text-decoration: none;
+     color:#000;
+     background-color: white;
+     padding: 5px 10px;
+     border: 1px solid transparent;
+     transition: 0.6s ease;
+   }
+ 
+.middle_buttons_ul li a:hover{
+     background-color: #000;
+     color: #fff;
+ 
+ }

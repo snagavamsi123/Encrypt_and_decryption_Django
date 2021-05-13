@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href="{% static '/styles/style.css'%}"> 
+    <title>Document</title>
+</head>
+<body>
+<div class='header' align='center'> 
+<h1>Visual Cryptography</h1>
+</div>
+<div class='header_buttons'>
+    <ul class='header_buttons_ul'>
+    <li><a href="/">Home</a></li>
+    <li><a href='encrypt'>Encrypt</a></li>
+    <li><a href='decrypt'>Decrypt</a></li>
+    </ul>
+</div>
+<center>
+<div class='middle_buttons'>
+
+        <ul class='middle_buttons_ul'>
+            <li><a href="encrypt">Encrypt</a></li>
+            <li><a href="decrypt">Decrypt</a></li>
+
+        </ul>
+            <!-- div class='button1'>
+                <form action="encrypt">
+                    {% csrf_token %}
+                    <button>Encryption</button>
+                </form>
+            </div>
+            
+            <div class='button2'>
+                <form action="decrypt">
+                    {% csrf_token %}
+                    < button>Decrytion</button>
+                </form>
+            </div -->
+    </div>
+    </center>
+
+</body>
+</html>

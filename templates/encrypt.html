@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="{% static '/styles/style.css'%}">
+    <title>Document</title>
+
+
+</head>
+<body>
+    
+
+    <div class="header" align='center'>
+        <h1>ENCRYPTION</h1>
+    </div>
+
+    <div class='header_buttons'>
+        <ul class='header_buttons_ul'>
+        <li><a href="/">Home</a></li>
+        <li><a href='encrypt'>Encrypt</a></li>
+        <li><a href='decrypt'>Decrypt</a></li>
+        </ul>
+    </div>
+ 
+
+    <br><br>
+    <form method='POST'> </form>
+    {% csrf_token %}
+    <div class="textareacls" align='center'>
+        <textarea name="iptextarea" id="i ptextarea" cols="100" rows="10" placeholder="enter your text"></textarea>
+    </div>  
+    <div class="button3"  align='center'>
+        <button>Encrypt</button>
+    </div>
+    </form>
+
+
+    <div class='output_content' id='output_content' align='center' {{enalbe_disable}}>
+        <h1  class='optext'>{{sentence}}</h1>
+        <!-- h2>{{encrypted_text}}</h2 --> 
+        <img src='data:image/png;base64,{{ encrypted_image }}'>
+        <!-- input type='button' value='Download!' -->
+        <br>
+        <div class="download_div">
+            <a href="data:image/png;base64,{{ encrypted_image }}" download="newname"><button class='download_btn'>Download</button></a>
+        </div>
+        <br>
+        <br><br>
+        <br>
+    </div>
+
+</body>
+
+</html>
