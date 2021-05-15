@@ -1,0 +1,4 @@
+cryptography==3.4.7
+Django==3.2
+django-cryptography==1.0
+text-to-image==0.0.5
